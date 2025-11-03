@@ -75,8 +75,8 @@ Visuals	KPIs, Donut Chart, Treemap, Line Chart, Bar Chart, Matrix Table
 These dashboards help leadership answer key business questions:
 
 Business Question	Dashboard Insight
-Which region is most profitable?	West (in t1) & North America(t3)
-Which category performs best?	Technology in both dashboards
+Which region is most profitable?	West (in t1) 
+Which category performs best?	Technology =
 Are discounts effective?	Excessive discounts reduce profit
 Which products to scale up?	Copiers, Phones, Office Tech
 Where to improve strategy?	Under-performing regions; optimize shipping & discounting
