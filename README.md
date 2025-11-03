@@ -1,67 +1,82 @@
-#task 3
-_____
-📊 Global Superstore Sales Performance Dashboard 
-✅ Overview
-This dashboard provides an interactive visual analysis of sales and profit performance across multiple regions, categories, and years using the Global Superstore dataset.
+📊 Global Superstore | Power BI Dashboards & Business Insights
 
-📌 Key Features:
-Total Sales & Profit KPIs
+This repository contains two analytical dashboards built using the Global Superstore dataset. The dashboards provide a comprehensive analytical view of sales and profit performance across regions, product categories, customer segments, and shipping modes, enabling data-driven business decisions.
 
-💰 13M Sales
+🧠 Project Objectives
 
-📈 1.47M Profit
+✅ Analyze sales & profit trends across multiple geographies
+✅ Identify top-performing product categories & sub-categories
+✅ Explore yearly and monthly seasonality in consumer purchasing
+✅ Evaluate shipping modes and their contribution to revenue
+✅ Understand how discounts impact profit margins
+✅ Develop decision insights and strategic recommendations
 
-Regional Performance
+📂 Dashboard Overview
+Global Superstore Sales Performance Dashboard
+📌 Key Metrics
 
-Bar Chart shows Sales vs Profit by Region.
+Total Sales: ~ ₹ 13M
 
-Line Chart displays Sales growth trend over years (2011–2014) per region.
+Total Profit: ~ ₹ 1.47M
 
-Category & Sub-Category Insights
+Top Category by Sales Share: Technology (~37.5%)
 
-Donut chart for Sales by Category: Furniture, Technology, and Office Supplies.
+Most Used Shipping Mode: Standard Class (~60%)
 
-Tree map for Profit by Sub-Category, highlighting top contributors (e.g., Copiers, Phones).
+📈 Key Visuals & KPIs
+Visualization	Insight Deliverables
+Sales & Profit by Region	North America, EMEA & Oceania lead in profit; some Asian markets show losses
+Sales Trend (2011–2014)	Strong upward trend – year-over-year revenue growth
+Profit by Sub-Category	Copiers & Phones are major profit drivers; Bookcases & Binders show negative trends
+Category Sales Split	Balanced revenue spread across Technology, Furniture, Office Supplies
+Shipping Mode Analysis	Standard class dominates customer preference (~60%)
+Region-wise Drill-down Table	Evaluates sales, discount, and profit contribution by region
+💡 Key Insights
 
-Shipping Analysis
+📍 Technology category drives highest revenue and margins
+📍 Copiers & Phones lead sub-category profits
+📍 South & Southeast Asia show negative profitability → pricing & logistics optimization needed
+📍 Standard shipping is most used — potential opportunity to upsell premium delivery tiers
 
-Pie chart breaks down Sales by Ship Mode, showing that Standard Class dominates (~60%).
+ Superstore Sales & Profit Analysis Dashboard
+📌 Key Metrics
 
-Detailed Table View
+Total Sales: ₹ 2.30M
 
-Drill-down into Region-wise Sales, Discount, and Profit, along with the Category for cross-comparison.
+Total Profit: ₹ 286.32K
 
-📈 Business Insights:
-Standard Class shipping contributes to the majority of sales.
+Total Quantity Sold: ~ 38K units
 
-Technology is the top-grossing category by sales.
+📈 Key Visuals & KPIs
+Visualization	Insight Deliverables
+Sales by Region	West leads, followed by East & Central
+Category Profit & Sales Analysis	Technology outperforms both in sales & profit
+Discount Impact Chart	Higher discounts → lower profits in some categories
+Sub-Category Profit	Phones & Copiers top profit list; Furnishings & Appliances negative
+Ship Mode by Segment	Standard class preferred across segments
+Sales vs Quantity Distribution	Increasing sales volume consistent with order size
+💡 Key Insights
 
-Sub-categories like Copiers and Phones drive high profits.
+📍 Technology remains the most profitable vertical
+📍 West region generates maximum sales
+📍 High discount regions/products → profit erosion risk
+📍 Balanced product portfolio — reduces business risk concentration
 
-Some regions like South Asia report negative profits, requiring cost analysis.
+🛠️ Tools & Technologies
+Category	Tools
+BI Tool	Power BI Desktop
+Data Source	Global Superstore Dataset
+DAX	KPI Measures & Date Intelligence
+Data Skills	ETL, Data Modeling, Drill-Downs, Filters, Slicers
+Visuals	KPIs, Donut Chart, Treemap, Line Chart, Bar Chart, Matrix Table
 
 
 
+These dashboards help leadership answer key business questions:
 
-# Superstore_dashboard
-#task 2
-created a dashboard using powerbi
-## 📊 Superstore Sales & Profit Analysis Dashboard
-
-This Power BI dashboard provides a comprehensive overview of the Superstore dataset, focusing on regional, categorical, and segment-level performance. It highlights KPIs including total sales, total profit, and total quantity. Key visualizations include:
-- Sales by Region
-- Profit by Category and Sub-Category
-- Sales vs Discount Impact
-- Segment-wise Sales by Ship Mode
-- Sales Distribution by Quantity
-- Category Contribution via Donut Chart
-- Detailed table of Region, Category, and Sub-Category metrics
-
-The dashboard uncovers insights such as:
-- **Technology** being the most profitable category
-- **West Region** driving the highest sales
-- **Binders** and **Copiers** dominating in Sub-Category performance
-- Discounts correlating with reduced profits in some segments
-
-Overall, it serves as an executive summary for understanding sales dynamics, profit drivers, and operational trends within the Superstore business.
-
+Business Question	Dashboard Insight
+Which region is most profitable?	West (in t1) & North America(t3)
+Which category performs best?	Technology in both dashboards
+Are discounts effective?	Excessive discounts reduce profit
+Which products to scale up?	Copiers, Phones, Office Tech
+Where to improve strategy?	Under-performing regions; optimize shipping & discounting
